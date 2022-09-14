@@ -23,10 +23,9 @@ if (isset($headers) && !empty($headers) && ((isset($headers["Cust_api_key"]) && 
   }
 } else {
   $FinalResponse["code"] = "401";
-	$FinalResponse["status"] = "error";
-	$FinalResponse["message"] = "Authorization failed! Please try again!";
+  $FinalResponse["status"] = "error";
+  $FinalResponse["message"] = "Authorization failed! Please try again!";
 }
-$FinalResponse["code"] = "200";
 
 echo json_encode($FinalResponse);
 
