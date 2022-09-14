@@ -1,6 +1,0 @@
-{
-    "require": {
-        "bshaffer/oauth2-server-php": "v1.6"
-     
-    }
-}
